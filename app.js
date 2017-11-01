@@ -59,17 +59,14 @@ function taunt() {
 
 
 
-function endGame() {
+function endGame() { 
+    if(mhealth <= 0){
+        alert("Nice lol, you killed the monkey.");
+
+    } else {
+    alert("Well, you lost. To a monkey.");
+    }
     mhealth = 100
     uhealth = 100
     hits = 0
-    if(mhealth <= 0)
-    alert("Nice lol, you killed the monkey.")
-    else
-    alert("Well, you lost. To a monkey.")
 }
-
-
-
-
-
