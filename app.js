@@ -65,7 +65,7 @@ function endGame() {
     hits = 0
     if(mhealth <= 0)
     alert("Nice lol, you killed the monkey.")
-    if(uhealth <= 0)
+    else
     alert("Well, you lost. To a monkey.")
 }
 
